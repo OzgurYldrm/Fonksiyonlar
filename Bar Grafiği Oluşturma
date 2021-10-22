@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+tag = ["Sosyal","Artistik","Girişimci","Araştırıcı","Geleneksel","Gerçekçi"]
+value = [41,35,37,38,40,35]
+plt.bar(tag,value,
+        width=0.5,
+        color="#f05131")
+plt.ylabel("Değer")
+plt.xlabel("Özellikler")
+plt.title("Kişilik Özellikleri")
+plt.show()
