@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+pie_tag = ["Sağ","Sol"]
+pie_value = [40,60]
+renkler = ['c','m']
+plt.pie(pie_value,
+  labels=pie_tag,
+  colors=renkler,
+  startangle=90,
+  shadow= True,
+  autopct='%1.1f%%')
+plt.title('Pasta Grafiği')
