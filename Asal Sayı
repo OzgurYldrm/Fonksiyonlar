@@ -1,0 +1,20 @@
+y=50
+sayı=2
+while y>0:
+  k=0
+  x=sayı
+  while x>0:
+    if sayı%x==0:
+      k=k+1
+      x=x-1
+    else:
+      x=x-1
+      continue
+  if k<3:
+    print(sayı)
+    sayı=sayı+1
+    y=y-1
+  else:
+    sayı=sayı+1
+    continue
+### Asal sayıları ekrana basan algoritma. y değeri kaç tane asal sayı basılacağını belirtir.
