@@ -1,0 +1,6 @@
+döngü = 50
+for i in range(2,döngü):
+  kenar1 = 4*i
+  kenar2 = 4*(i**2)-1
+  kenar3 = 4*(i**2)+1
+  print(kenar1,"\t",kenar2,"\t",kenar3)
