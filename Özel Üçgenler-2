@@ -1,0 +1,7 @@
+index = 100
+for i in range(2,index):
+  if i%2==1:
+    k1 = i
+    k2 = int(((i**2)-1)/2)
+    k3 = int(((i**2)+1)/2)
+    print(k1,"\t",k2,"\t",k3)
